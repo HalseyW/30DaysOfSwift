@@ -12,6 +12,10 @@
 		77A0195421CA164F00E96821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A0195221CA164F00E96821 /* Main.storyboard */; };
 		77A0195621CA165000E96821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A0195521CA165000E96821 /* Assets.xcassets */; };
 		77A0195921CA165000E96821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A0195721CA165000E96821 /* LaunchScreen.storyboard */; };
+		77A0199E21CA322800E96821 /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 77A0199C21CA2AF400E96821 /* Gaspar Regular.otf */; };
+		77A0199F21CA322800E96821 /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A0199D21CA2AF400E96821 /* MFJinHei_Noncommercial-Regular.ttf */; };
+		77A019A021CA322800E96821 /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A0199B21CA2AF400E96821 /* MFTongXin_Noncommercial-Regular.ttf */; };
+		77A019A121CA322800E96821 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 77A0199A21CA2AF400E96821 /* MFZhiHei_Noncommercial-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		77A0195521CA165000E96821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77A0195821CA165000E96821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77A0195A21CA165000E96821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A0199A21CA2AF400E96821 /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		77A0199B21CA2AF400E96821 /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		77A0199C21CA2AF400E96821 /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
+		77A0199D21CA2AF400E96821 /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,20 @@
 				77A0195521CA165000E96821 /* Assets.xcassets */,
 				77A0195721CA165000E96821 /* LaunchScreen.storyboard */,
 				77A0195A21CA165000E96821 /* Info.plist */,
+				77A0199921CA2ADA00E96821 /* Fonts */,
 			);
 			path = CustomFont;
+			sourceTree = "<group>";
+		};
+		77A0199921CA2ADA00E96821 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				77A0199C21CA2AF400E96821 /* Gaspar Regular.otf */,
+				77A0199D21CA2AF400E96821 /* MFJinHei_Noncommercial-Regular.ttf */,
+				77A0199B21CA2AF400E96821 /* MFTongXin_Noncommercial-Regular.ttf */,
+				77A0199A21CA2AF400E96821 /* MFZhiHei_Noncommercial-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +142,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A0199E21CA322800E96821 /* Gaspar Regular.otf in Resources */,
+				77A0199F21CA322800E96821 /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
+				77A019A021CA322800E96821 /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
+				77A019A121CA322800E96821 /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
 				77A0195921CA165000E96821 /* LaunchScreen.storyboard in Resources */,
 				77A0195621CA165000E96821 /* Assets.xcassets in Resources */,
 				77A0195421CA164F00E96821 /* Main.storyboard in Resources */,
@@ -293,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wushhhhhh.30daysofswift.CustomFont;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wushhhhhh.30daysofswift.CustomFont;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
