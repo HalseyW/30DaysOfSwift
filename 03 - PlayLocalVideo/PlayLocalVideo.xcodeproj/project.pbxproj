@@ -12,6 +12,9 @@
 		77A019B421CA37FD00E96821 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A019B221CA37FD00E96821 /* Main.storyboard */; };
 		77A019B621CA37FE00E96821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77A019B521CA37FE00E96821 /* Assets.xcassets */; };
 		77A019B921CA37FE00E96821 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77A019B721CA37FE00E96821 /* LaunchScreen.storyboard */; };
+		77A019C321CA42A600E96821 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A019C221CA42A600E96821 /* VideoCell.swift */; };
+		77A019C621CA46C400E96821 /* emoji zone.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 77A019C521CA46B400E96821 /* emoji zone.mp4 */; };
+		77A019C821CA479D00E96821 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A019C721CA479D00E96821 /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		77A019B521CA37FE00E96821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77A019B821CA37FE00E96821 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77A019BA21CA37FE00E96821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77A019C221CA42A600E96821 /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		77A019C521CA46B400E96821 /* emoji zone.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "emoji zone.mp4"; sourceTree = "<group>"; };
+		77A019C721CA479D00E96821 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +62,23 @@
 			children = (
 				77A019AE21CA37FD00E96821 /* AppDelegate.swift */,
 				77A019B021CA37FD00E96821 /* ViewController.swift */,
+				77A019C221CA42A600E96821 /* VideoCell.swift */,
+				77A019C721CA479D00E96821 /* Video.swift */,
 				77A019B221CA37FD00E96821 /* Main.storyboard */,
 				77A019B521CA37FE00E96821 /* Assets.xcassets */,
+				77A019C421CA46A800E96821 /* Movie */,
 				77A019B721CA37FE00E96821 /* LaunchScreen.storyboard */,
 				77A019BA21CA37FE00E96821 /* Info.plist */,
 			);
 			path = PlayLocalVideo;
+			sourceTree = "<group>";
+		};
+		77A019C421CA46A800E96821 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				77A019C521CA46B400E96821 /* emoji zone.mp4 */,
+			);
+			path = Movie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -122,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A019C621CA46C400E96821 /* emoji zone.mp4 in Resources */,
 				77A019B921CA37FE00E96821 /* LaunchScreen.storyboard in Resources */,
 				77A019B621CA37FE00E96821 /* Assets.xcassets in Resources */,
 				77A019B421CA37FD00E96821 /* Main.storyboard in Resources */,
@@ -136,7 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				77A019B121CA37FD00E96821 /* ViewController.swift in Sources */,
+				77A019C821CA479D00E96821 /* Video.swift in Sources */,
 				77A019AF21CA37FD00E96821 /* AppDelegate.swift in Sources */,
+				77A019C321CA42A600E96821 /* VideoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83LX8MTQKZ;
 				INFOPLIST_FILE = PlayLocalVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +313,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wushhhhhh.30daysofswift.PlayLocalVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +324,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 83LX8MTQKZ;
 				INFOPLIST_FILE = PlayLocalVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.wushhhhhh.30daysofswift.PlayLocalVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
