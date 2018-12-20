@@ -8,6 +8,7 @@
 //知识点：
 //1. 在 Info.plist 中添加 「Fonts provided by application」，并在其下添加字体文件名
 //2. 在 TARGETS -> 项目 -> Build Phases -> Copy Bundle Resources 下添加字体文件
+//3. 通过 index = 0, index = (index + 1) % n 来不断轮询数组b下标
 
 import UIKit
 

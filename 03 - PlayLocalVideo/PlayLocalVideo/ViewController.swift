@@ -5,6 +5,10 @@
 //  Created by HalseyW-15 on 2018/12/19.
 //  Copyright © 2018 wushhhhhh. All rights reserved.
 //
+//知识点：
+//1. 通过 AVPlayerViewController 和 AVPlayer 直接调用系统播放器播放视频
+//2. 自定义 Cell，从 sb 拉取控件并调用
+//
 
 import UIKit
 import AVKit
