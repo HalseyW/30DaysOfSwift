@@ -11,6 +11,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController" customModule="SnapChatMenu" customModuleProvider="target">
             <connections>
+                <outlet property="cameraView" destination="sAe-qC-4tu" id="4Ns-8f-6QC"/>
+                <outlet property="ivPhoto" destination="cT0-Jb-cb6" id="xw4-lh-Pfs"/>
                 <outlet property="view" destination="iN0-l3-epB" id="zza-kP-k9U"/>
             </connections>
         </placeholder>
@@ -18,8 +20,27 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="0.92549019610000005" green="0.94901960780000005" blue="0.039215686270000001" alpha="0.95786741210000004" colorSpace="custom" customColorSpace="sRGB"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sAe-qC-4tu">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cT0-Jb-cb6">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="sAe-qC-4tu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="46H-bO-g18"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="cT0-Jb-cb6" secondAttribute="trailing" id="91j-fl-J9f"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="sAe-qC-4tu" secondAttribute="trailing" id="Tm3-x8-jxo"/>
+                <constraint firstItem="cT0-Jb-cb6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Zaw-gM-18e"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="cT0-Jb-cb6" secondAttribute="top" constant="20" id="bg0-lc-H7z"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="sAe-qC-4tu" secondAttribute="bottom" id="eh6-aR-4dO"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="top" secondItem="sAe-qC-4tu" secondAttribute="top" constant="20" id="gGh-wX-kOq"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="cT0-Jb-cb6" secondAttribute="bottom" id="utb-LP-aP8"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
         </view>
     </objects>
 </document>

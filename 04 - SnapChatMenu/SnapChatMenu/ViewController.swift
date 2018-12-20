@@ -7,8 +7,8 @@
 //
 //知识点：
 //1. xib中的File`s Owner设置其class；在xib中设置View Outlets，将File`s Owner和view连线，否则会报错。
-//2.
-//
+//2. 为controller添加子controller，addChild并调用didMove。
+//3. 简单拍照的方法。
 
 import UIKit
 
@@ -45,6 +45,4 @@ class ViewController: UIViewController {
         
         self.scrollView.contentSize = CGSize(width: self.view.frame.width * 3, height: 0)
     }
-
 }
-
