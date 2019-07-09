@@ -12,6 +12,7 @@
 		7782254122D4298F00E9DE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782253F22D4298F00E9DE8F /* Main.storyboard */; };
 		7782254322D4299000E9DE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7782254222D4299000E9DE8F /* Assets.xcassets */; };
 		7782254622D4299000E9DE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782254422D4299000E9DE8F /* LaunchScreen.storyboard */; };
+		7782254E22D42E7300E9DE8F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782254D22D42E7300E9DE8F /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7782254222D4299000E9DE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7782254522D4299000E9DE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7782254722D4299000E9DE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7782254D22D42E7300E9DE8F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7782253B22D4298F00E9DE8F /* AppDelegate.swift */,
 				7782253D22D4298F00E9DE8F /* ViewController.swift */,
+				7782254D22D42E7300E9DE8F /* LoginViewController.swift */,
 				7782253F22D4298F00E9DE8F /* Main.storyboard */,
 				7782254222D4299000E9DE8F /* Assets.xcassets */,
 				7782254422D4299000E9DE8F /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7782254E22D42E7300E9DE8F /* LoginViewController.swift in Sources */,
 				7782253E22D4298F00E9DE8F /* ViewController.swift in Sources */,
 				7782253C22D4298F00E9DE8F /* AppDelegate.swift in Sources */,
 			);
