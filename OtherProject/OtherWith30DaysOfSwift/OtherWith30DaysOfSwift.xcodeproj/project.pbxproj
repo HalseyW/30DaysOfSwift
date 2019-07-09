@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		1DC4B6F854AF31614CF22CCD /* Pods_OtherWith30DaysOfSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */; };
 		7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782255B22D4326700E9DE8F /* AppDelegate.swift */; };
-		7782255E22D4326700E9DE8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782255D22D4326700E9DE8F /* ViewController.swift */; };
 		7782256122D4326700E9DE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782255F22D4326700E9DE8F /* Main.storyboard */; };
 		7782256322D4326800E9DE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7782256222D4326800E9DE8F /* Assets.xcassets */; };
 		7782256622D4326800E9DE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782256422D4326800E9DE8F /* LaunchScreen.storyboard */; };
+		7782257222D4350900E9DE8F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257122D4350900E9DE8F /* MainViewController.swift */; };
+		7782257422D435DB00E9DE8F /* LoginAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257322D435DB00E9DE8F /* LoginAnimationViewController.swift */; };
+		7782257622D4370200E9DE8F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257522D4370200E9DE8F /* LoginViewController.swift */; };
+		7782257922D467C600E9DE8F /* AnimatedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257822D467C600E9DE8F /* AnimatedTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtherWith30DaysOfSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7782255822D4326700E9DE8F /* OtherWith30DaysOfSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtherWith30DaysOfSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7782255B22D4326700E9DE8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7782255D22D4326700E9DE8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7782256022D4326700E9DE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7782256222D4326800E9DE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7782256522D4326800E9DE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7782256722D4326800E9DE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7782257122D4350900E9DE8F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7782257322D435DB00E9DE8F /* LoginAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAnimationViewController.swift; sourceTree = "<group>"; };
+		7782257522D4370200E9DE8F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7782257822D467C600E9DE8F /* AnimatedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTableViewController.swift; sourceTree = "<group>"; };
 		E105C03734407E224A75F154 /* Pods-OtherWith30DaysOfSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtherWith30DaysOfSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OtherWith30DaysOfSwift/Pods-OtherWith30DaysOfSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		F7D91C843C692210C0B115A4 /* Pods-OtherWith30DaysOfSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtherWith30DaysOfSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-OtherWith30DaysOfSwift/Pods-OtherWith30DaysOfSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,7 +94,7 @@
 		7782256D22D4327A00E9DE8F /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				7782255D22D4326700E9DE8F /* ViewController.swift */,
+				7782257122D4350900E9DE8F /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -108,8 +114,27 @@
 		7782256F22D432F600E9DE8F /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				7782257022D4340000E9DE8F /* 12 - LoginAnimation */,
+				7782257722D4679400E9DE8F /* 13 - AnimateTableViewCell */,
 			);
 			path = Module;
+			sourceTree = "<group>";
+		};
+		7782257022D4340000E9DE8F /* 12 - LoginAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				7782257322D435DB00E9DE8F /* LoginAnimationViewController.swift */,
+				7782257522D4370200E9DE8F /* LoginViewController.swift */,
+			);
+			path = "12 - LoginAnimation";
+			sourceTree = "<group>";
+		};
+		7782257722D4679400E9DE8F /* 13 - AnimateTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7782257822D467C600E9DE8F /* AnimatedTableViewController.swift */,
+			);
+			path = "13 - AnimateTableViewCell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,8 +249,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7782255E22D4326700E9DE8F /* ViewController.swift in Sources */,
+				7782257622D4370200E9DE8F /* LoginViewController.swift in Sources */,
 				7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */,
+				7782257222D4350900E9DE8F /* MainViewController.swift in Sources */,
+				7782257922D467C600E9DE8F /* AnimatedTableViewController.swift in Sources */,
+				7782257422D435DB00E9DE8F /* LoginAnimationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
