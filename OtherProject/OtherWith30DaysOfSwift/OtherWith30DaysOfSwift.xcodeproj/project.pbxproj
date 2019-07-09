@@ -16,6 +16,7 @@
 		7782257422D435DB00E9DE8F /* LoginAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257322D435DB00E9DE8F /* LoginAnimationViewController.swift */; };
 		7782257622D4370200E9DE8F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257522D4370200E9DE8F /* LoginViewController.swift */; };
 		7782257922D467C600E9DE8F /* AnimatedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257822D467C600E9DE8F /* AnimatedTableViewController.swift */; };
+		7782257C22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257B22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7782257322D435DB00E9DE8F /* LoginAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAnimationViewController.swift; sourceTree = "<group>"; };
 		7782257522D4370200E9DE8F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7782257822D467C600E9DE8F /* AnimatedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTableViewController.swift; sourceTree = "<group>"; };
+		7782257B22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSlotMachineViewController.swift; sourceTree = "<group>"; };
 		E105C03734407E224A75F154 /* Pods-OtherWith30DaysOfSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtherWith30DaysOfSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OtherWith30DaysOfSwift/Pods-OtherWith30DaysOfSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		F7D91C843C692210C0B115A4 /* Pods-OtherWith30DaysOfSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtherWith30DaysOfSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-OtherWith30DaysOfSwift/Pods-OtherWith30DaysOfSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 			children = (
 				7782257022D4340000E9DE8F /* 12 - LoginAnimation */,
 				7782257722D4679400E9DE8F /* 13 - AnimateTableViewCell */,
+				7782257A22D48AA400E9DE8F /* 14 - EmojiSlotMachine */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -135,6 +138,14 @@
 				7782257822D467C600E9DE8F /* AnimatedTableViewController.swift */,
 			);
 			path = "13 - AnimateTableViewCell";
+			sourceTree = "<group>";
+		};
+		7782257A22D48AA400E9DE8F /* 14 - EmojiSlotMachine */ = {
+			isa = PBXGroup;
+			children = (
+				7782257B22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift */,
+			);
+			path = "14 - EmojiSlotMachine";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7782257622D4370200E9DE8F /* LoginViewController.swift in Sources */,
+				7782257C22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift in Sources */,
 				7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */,
 				7782257222D4350900E9DE8F /* MainViewController.swift in Sources */,
 				7782257922D467C600E9DE8F /* AnimatedTableViewController.swift in Sources */,

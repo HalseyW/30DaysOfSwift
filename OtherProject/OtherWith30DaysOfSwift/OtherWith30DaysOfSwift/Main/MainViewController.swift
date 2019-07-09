@@ -9,7 +9,7 @@
 import UIKit
 
 class MainViewController: UITableViewController {
-    let data = ["12 - LoginAnimation", "13 - AnimateTableViewCell"]
+    let data = ["12 - LoginAnimation", "13 - AnimateTableViewCell", "14 - EmojiSlotMachine"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,6 +33,8 @@ class MainViewController: UITableViewController {
             self.present(UINavigationController(rootViewController: LoginAnimationViewController()), animated: true, completion: nil)
         case 1:
             self.present(AnimatedTableViewController(), animated: true, completion: nil)
+        case 2:
+            self.present(EmojiSlotMachineViewController(), animated: true, completion: nil)
         default:
             break
         }
