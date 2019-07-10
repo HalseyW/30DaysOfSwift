@@ -14,25 +14,25 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="HuF-Fs-Unm"/>
-                        <viewControllerLayoutGuide type="bottom" id="hDb-tV-9Ua"/>
+                        <viewControllerLayoutGuide type="top" id="OAQ-Z0-ON8"/>
+                        <viewControllerLayoutGuide type="bottom" id="pjB-yJ-APH"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Srb-IN-aPz">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch_logo" translatesAutoresizingMaskIntoConstraints="NO" id="vjq-1A-LsE">
                                 <rect key="frame" x="157" y="398" width="100" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="7Td-yO-8KG"/>
-                                    <constraint firstAttribute="height" constant="100" id="bND-sV-cfC"/>
+                                    <constraint firstAttribute="width" constant="100" id="26m-1Z-jkx"/>
+                                    <constraint firstAttribute="height" constant="100" id="YPl-RF-cbn"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.1137254902" green="0.63137254899999995" blue="0.94901960780000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Srb-IN-aPz" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="QOS-UU-fnd"/>
-                            <constraint firstItem="Srb-IN-aPz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="hDB-RI-aZg"/>
+                            <constraint firstItem="vjq-1A-LsE" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5B2-R8-HuD"/>
+                            <constraint firstItem="vjq-1A-LsE" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="CAw-e4-eqY"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -42,6 +42,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="1687" height="1687"/>
+        <image name="launch_logo" width="843.5" height="843.5"/>
     </resources>
 </document>

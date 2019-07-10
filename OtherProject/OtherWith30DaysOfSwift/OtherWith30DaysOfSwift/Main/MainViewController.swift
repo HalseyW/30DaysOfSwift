@@ -8,26 +8,42 @@
 
 import UIKit
 
-class MainViewController: UITableViewController {
+class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    let tableView = UITableView()
     let data = ["12 - LoginAnimation", "13 - AnimateTableViewCell", "14 - EmojiSlotMachine"]
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "MainViewControllerCell")
+        tableView.delegate = self
+        tableView.dataSource = self
+        self.view.addSubview(tableView)
+        tableView.snp.makeConstraints { (make) in
+            make.width.equalToSuperview()
+            if #available(iOS 11.0, *) {
+                make.top.equalTo(self.view.safeAreaLayoutGuide.snp.top)
+                make.bottom.equalTo(self.view.safeAreaLayoutGuide.snp.bottom)
+            } else {
+                make.top.equalToSuperview()
+                make.bottom.equalToSuperview()
+            }
+        }
     }
 
     // MARK: - Table view data source
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return data.count
     }
 
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MainViewControllerCell", for: indexPath)
         let text = data[indexPath.row]
         cell.textLabel?.text = text
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0:
             self.present(UINavigationController(rootViewController: LoginAnimationViewController()), animated: true, completion: nil)

@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1DC4B6F854AF31614CF22CCD /* Pods_OtherWith30DaysOfSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */; };
+		775ADC1422D5B8EB004304FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */; };
 		7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782255B22D4326700E9DE8F /* AppDelegate.swift */; };
 		7782256122D4326700E9DE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782255F22D4326700E9DE8F /* Main.storyboard */; };
 		7782256322D4326800E9DE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7782256222D4326800E9DE8F /* Assets.xcassets */; };
-		7782256622D4326800E9DE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782256422D4326800E9DE8F /* LaunchScreen.storyboard */; };
 		7782257222D4350900E9DE8F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257122D4350900E9DE8F /* MainViewController.swift */; };
 		7782257422D435DB00E9DE8F /* LoginAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257322D435DB00E9DE8F /* LoginAnimationViewController.swift */; };
 		7782257622D4370200E9DE8F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257522D4370200E9DE8F /* LoginViewController.swift */; };
@@ -21,11 +21,11 @@
 
 /* Begin PBXFileReference section */
 		7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtherWith30DaysOfSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7782255822D4326700E9DE8F /* OtherWith30DaysOfSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtherWith30DaysOfSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7782255B22D4326700E9DE8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7782256022D4326700E9DE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7782256222D4326800E9DE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7782256522D4326800E9DE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7782256722D4326800E9DE8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7782257122D4350900E9DE8F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		7782257322D435DB00E9DE8F /* LoginAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAnimationViewController.swift; sourceTree = "<group>"; };
@@ -106,9 +106,9 @@
 			children = (
 				7782255B22D4326700E9DE8F /* AppDelegate.swift */,
 				7782255F22D4326700E9DE8F /* Main.storyboard */,
-				7782256222D4326800E9DE8F /* Assets.xcassets */,
-				7782256422D4326800E9DE8F /* LaunchScreen.storyboard */,
 				7782256722D4326800E9DE8F /* Info.plist */,
+				7782256222D4326800E9DE8F /* Assets.xcassets */,
+				775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -208,7 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7782256622D4326800E9DE8F /* LaunchScreen.storyboard in Resources */,
+				775ADC1422D5B8EB004304FA /* LaunchScreen.storyboard in Resources */,
 				7782256322D4326800E9DE8F /* Assets.xcassets in Resources */,
 				7782256122D4326700E9DE8F /* Main.storyboard in Resources */,
 			);
@@ -278,14 +278,6 @@
 				7782256022D4326700E9DE8F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7782256422D4326800E9DE8F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7782256522D4326800E9DE8F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
