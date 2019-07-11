@@ -10,7 +10,7 @@ import UIKit
 
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let tableView = UITableView()
-    let data = ["12 - LoginAnimation", "13 - AnimateTableViewCell", "14 - EmojiSlotMachine"]
+    let data = ["LoginAnimation", "AnimateTableViewCell", "EmojiSlotMachine", "FacebookMe"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,6 +40,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
         let cell = tableView.dequeueReusableCell(withIdentifier: "MainViewControllerCell", for: indexPath)
         let text = data[indexPath.row]
         cell.textLabel?.text = text
+        cell.accessoryType = .disclosureIndicator
+        
         return cell
     }
     
@@ -51,6 +53,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             self.present(AnimatedTableViewController(), animated: true, completion: nil)
         case 2:
             self.present(EmojiSlotMachineViewController(), animated: true, completion: nil)
+        case 3:
+            self.present(UINavigationController(rootViewController: FacebookMeViewController()), animated: true, completion: nil)
         default:
             break
         }

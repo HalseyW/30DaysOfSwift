@@ -8,7 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1DC4B6F854AF31614CF22CCD /* Pods_OtherWith30DaysOfSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */; };
+		7754BF2522D6D0A20005CA27 /* FacebookMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754BF2422D6D0A20005CA27 /* FacebookMeViewController.swift */; };
 		775ADC1422D5B8EB004304FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */; };
+		775ADC1A22D5C092004304FA /* AnimatedSplash.strings in Resources */ = {isa = PBXBuildFile; fileRef = 775ADC1922D5C092004304FA /* AnimatedSplash.strings */; };
 		7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782255B22D4326700E9DE8F /* AppDelegate.swift */; };
 		7782256122D4326700E9DE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782255F22D4326700E9DE8F /* Main.storyboard */; };
 		7782256322D4326800E9DE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7782256222D4326800E9DE8F /* Assets.xcassets */; };
@@ -21,7 +23,9 @@
 
 /* Begin PBXFileReference section */
 		7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtherWith30DaysOfSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7754BF2422D6D0A20005CA27 /* FacebookMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMeViewController.swift; sourceTree = "<group>"; };
 		775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		775ADC1922D5C092004304FA /* AnimatedSplash.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = AnimatedSplash.strings; sourceTree = "<group>"; };
 		7782255822D4326700E9DE8F /* OtherWith30DaysOfSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtherWith30DaysOfSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7782255B22D4326700E9DE8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7782256022D4326700E9DE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +67,22 @@
 				7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7754BF2322D6D0830005CA27 /* FacebookMe */ = {
+			isa = PBXGroup;
+			children = (
+				7754BF2422D6D0A20005CA27 /* FacebookMeViewController.swift */,
+			);
+			path = FacebookMe;
+			sourceTree = "<group>";
+		};
+		775ADC1822D5C06C004304FA /* AnimatedSplash */ = {
+			isa = PBXGroup;
+			children = (
+				775ADC1922D5C092004304FA /* AnimatedSplash.strings */,
+			);
+			path = AnimatedSplash;
 			sourceTree = "<group>";
 		};
 		7782254F22D4326700E9DE8F = {
@@ -116,36 +136,38 @@
 		7782256F22D432F600E9DE8F /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				7782257022D4340000E9DE8F /* 12 - LoginAnimation */,
-				7782257722D4679400E9DE8F /* 13 - AnimateTableViewCell */,
-				7782257A22D48AA400E9DE8F /* 14 - EmojiSlotMachine */,
+				7782257022D4340000E9DE8F /* LoginAnimation */,
+				7782257722D4679400E9DE8F /* AnimateTableViewCell */,
+				7782257A22D48AA400E9DE8F /* EmojiSlotMachine */,
+				775ADC1822D5C06C004304FA /* AnimatedSplash */,
+				7754BF2322D6D0830005CA27 /* FacebookMe */,
 			);
 			path = Module;
 			sourceTree = "<group>";
 		};
-		7782257022D4340000E9DE8F /* 12 - LoginAnimation */ = {
+		7782257022D4340000E9DE8F /* LoginAnimation */ = {
 			isa = PBXGroup;
 			children = (
 				7782257322D435DB00E9DE8F /* LoginAnimationViewController.swift */,
 				7782257522D4370200E9DE8F /* LoginViewController.swift */,
 			);
-			path = "12 - LoginAnimation";
+			path = LoginAnimation;
 			sourceTree = "<group>";
 		};
-		7782257722D4679400E9DE8F /* 13 - AnimateTableViewCell */ = {
+		7782257722D4679400E9DE8F /* AnimateTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
 				7782257822D467C600E9DE8F /* AnimatedTableViewController.swift */,
 			);
-			path = "13 - AnimateTableViewCell";
+			path = AnimateTableViewCell;
 			sourceTree = "<group>";
 		};
-		7782257A22D48AA400E9DE8F /* 14 - EmojiSlotMachine */ = {
+		7782257A22D48AA400E9DE8F /* EmojiSlotMachine */ = {
 			isa = PBXGroup;
 			children = (
 				7782257B22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift */,
 			);
-			path = "14 - EmojiSlotMachine";
+			path = EmojiSlotMachine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				775ADC1A22D5C092004304FA /* AnimatedSplash.strings in Resources */,
 				775ADC1422D5B8EB004304FA /* LaunchScreen.storyboard in Resources */,
 				7782256322D4326800E9DE8F /* Assets.xcassets in Resources */,
 				7782256122D4326700E9DE8F /* Main.storyboard in Resources */,
@@ -261,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7782257622D4370200E9DE8F /* LoginViewController.swift in Sources */,
+				7754BF2522D6D0A20005CA27 /* FacebookMeViewController.swift in Sources */,
 				7782257C22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift in Sources */,
 				7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */,
 				7782257222D4350900E9DE8F /* MainViewController.swift in Sources */,

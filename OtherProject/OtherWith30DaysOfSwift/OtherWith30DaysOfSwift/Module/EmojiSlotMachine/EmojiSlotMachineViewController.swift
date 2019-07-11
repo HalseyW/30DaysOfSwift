@@ -10,6 +10,7 @@
 // [0,100) -> arc4random() % 100
 // [500,1000) -> (arc4random() % 501) + 500
 // X ~ N 之间的随机数: arc4random() % (N - X) + X
+// 或者 Int.random(in: 0 ... 99)...
 
 import UIKit
 
