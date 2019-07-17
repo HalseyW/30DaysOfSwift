@@ -11,6 +11,9 @@
 		7754BF2522D6D0A20005CA27 /* FacebookMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754BF2422D6D0A20005CA27 /* FacebookMeViewController.swift */; };
 		775ADC1422D5B8EB004304FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */; };
 		775ADC1A22D5C092004304FA /* AnimatedSplash.strings in Resources */ = {isa = PBXBuildFile; fileRef = 775ADC1922D5C092004304FA /* AnimatedSplash.strings */; };
+		775D898D22DEB85D000B10AD /* PhotoListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D898C22DEB85D000B10AD /* PhotoListCollectionViewController.swift */; };
+		775D899122DEC082000B10AD /* PhotoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D899022DEC082000B10AD /* PhotoPageViewController.swift */; };
+		775D899322DEF3D5000B10AD /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D899222DEF3D5000B10AD /* PhotoDetailViewController.swift */; };
 		7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782255B22D4326700E9DE8F /* AppDelegate.swift */; };
 		7782256122D4326700E9DE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782255F22D4326700E9DE8F /* Main.storyboard */; };
 		7782256322D4326800E9DE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7782256222D4326800E9DE8F /* Assets.xcassets */; };
@@ -28,6 +31,9 @@
 		7754BF2422D6D0A20005CA27 /* FacebookMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMeViewController.swift; sourceTree = "<group>"; };
 		775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		775ADC1922D5C092004304FA /* AnimatedSplash.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = AnimatedSplash.strings; sourceTree = "<group>"; };
+		775D898C22DEB85D000B10AD /* PhotoListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCollectionViewController.swift; sourceTree = "<group>"; };
+		775D899022DEC082000B10AD /* PhotoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPageViewController.swift; sourceTree = "<group>"; };
+		775D899222DEF3D5000B10AD /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		7782255822D4326700E9DE8F /* OtherWith30DaysOfSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtherWith30DaysOfSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7782255B22D4326700E9DE8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7782256022D4326700E9DE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,6 +95,16 @@
 			path = AnimatedSplash;
 			sourceTree = "<group>";
 		};
+		775D898B22DEB3EF000B10AD /* PhotoScroll */ = {
+			isa = PBXGroup;
+			children = (
+				775D898C22DEB85D000B10AD /* PhotoListCollectionViewController.swift */,
+				775D899022DEC082000B10AD /* PhotoPageViewController.swift */,
+				775D899222DEF3D5000B10AD /* PhotoDetailViewController.swift */,
+			);
+			path = PhotoScroll;
+			sourceTree = "<group>";
+		};
 		7782254F22D4326700E9DE8F = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +162,7 @@
 				775ADC1822D5C06C004304FA /* AnimatedSplash */,
 				7754BF2322D6D0830005CA27 /* FacebookMe */,
 				77B5413722DD612F00AE3224 /* SimpleRSSReader */,
+				775D898B22DEB3EF000B10AD /* PhotoScroll */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -304,7 +321,10 @@
 				7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */,
 				7782257222D4350900E9DE8F /* MainViewController.swift in Sources */,
 				7782257922D467C600E9DE8F /* AnimatedTableViewController.swift in Sources */,
+				775D898D22DEB85D000B10AD /* PhotoListCollectionViewController.swift in Sources */,
 				7782257422D435DB00E9DE8F /* LoginAnimationViewController.swift in Sources */,
+				775D899122DEC082000B10AD /* PhotoPageViewController.swift in Sources */,
+				775D899322DEF3D5000B10AD /* PhotoDetailViewController.swift in Sources */,
 				77B5413D22DDA4A000AE3224 /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
