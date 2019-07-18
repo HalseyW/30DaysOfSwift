@@ -14,7 +14,7 @@ class PhotoPageViewController: UIPageViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = .lightGray
+        self.view.backgroundColor = .white
         
         self.dataSource = self
 
@@ -46,10 +46,10 @@ extension PhotoPageViewController: UIPageViewControllerDataSource {
         return nil
     }
     
-    //实现这个方法会在下方显示圆形的数量指示器，不实现则会隐藏
-    func presentationCount(for pageViewController: UIPageViewController) -> Int {
-        return photos.count
-    }
+//    //实现这个方法会在下方显示圆形的数量指示器，不实现则会隐藏
+//    func presentationCount(for pageViewController: UIPageViewController) -> Int {
+//        return photos.count
+//    }
 
     func presentationIndex(for pageViewController: UIPageViewController) -> Int {
         return currentIndex ?? 0
