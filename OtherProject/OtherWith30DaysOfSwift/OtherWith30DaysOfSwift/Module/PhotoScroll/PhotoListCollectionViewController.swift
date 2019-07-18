@@ -10,6 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 let screenWidth = UIScreen.main.bounds.width
+let screenHeight = UIScreen.main.bounds.height
 
 class PhotoListCollectionViewController: UICollectionViewController {
     let photos = ["photo1", "photo2", "photo3", "photo4", "photo5"]

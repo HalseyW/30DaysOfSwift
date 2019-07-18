@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1DC4B6F854AF31614CF22CCD /* Pods_OtherWith30DaysOfSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */; };
+		7722E52022E065C400F069CB /* QuoraDotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722E51F22E065C400F069CB /* QuoraDotsViewController.swift */; };
 		7754BF2522D6D0A20005CA27 /* FacebookMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754BF2422D6D0A20005CA27 /* FacebookMeViewController.swift */; };
 		775ADC1422D5B8EB004304FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */; };
 		775ADC1A22D5C092004304FA /* AnimatedSplash.strings in Resources */ = {isa = PBXBuildFile; fileRef = 775ADC1922D5C092004304FA /* AnimatedSplash.strings */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtherWith30DaysOfSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7722E51F22E065C400F069CB /* QuoraDotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoraDotsViewController.swift; sourceTree = "<group>"; };
 		7754BF2422D6D0A20005CA27 /* FacebookMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMeViewController.swift; sourceTree = "<group>"; };
 		775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		775ADC1922D5C092004304FA /* AnimatedSplash.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = AnimatedSplash.strings; sourceTree = "<group>"; };
@@ -77,6 +79,14 @@
 				7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7722E51D22E0659F00F069CB /* QuoraDots */ = {
+			isa = PBXGroup;
+			children = (
+				7722E51F22E065C400F069CB /* QuoraDotsViewController.swift */,
+			);
+			path = QuoraDots;
 			sourceTree = "<group>";
 		};
 		7754BF2322D6D0830005CA27 /* FacebookMe */ = {
@@ -163,6 +173,7 @@
 				7754BF2322D6D0830005CA27 /* FacebookMe */,
 				77B5413722DD612F00AE3224 /* SimpleRSSReader */,
 				775D898B22DEB3EF000B10AD /* PhotoScroll */,
+				7722E51D22E0659F00F069CB /* QuoraDots */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -321,6 +332,7 @@
 				7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */,
 				7782257222D4350900E9DE8F /* MainViewController.swift in Sources */,
 				7782257922D467C600E9DE8F /* AnimatedTableViewController.swift in Sources */,
+				7722E52022E065C400F069CB /* QuoraDotsViewController.swift in Sources */,
 				775D898D22DEB85D000B10AD /* PhotoListCollectionViewController.swift in Sources */,
 				7782257422D435DB00E9DE8F /* LoginAnimationViewController.swift in Sources */,
 				775D899122DEC082000B10AD /* PhotoPageViewController.swift in Sources */,
