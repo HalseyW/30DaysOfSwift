@@ -15,6 +15,8 @@
 		775D898D22DEB85D000B10AD /* PhotoListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D898C22DEB85D000B10AD /* PhotoListCollectionViewController.swift */; };
 		775D899122DEC082000B10AD /* PhotoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D899022DEC082000B10AD /* PhotoPageViewController.swift */; };
 		775D899322DEF3D5000B10AD /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D899222DEF3D5000B10AD /* PhotoDetailViewController.swift */; };
+		7776D15E23150505006C54B0 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7776D15D23150505006C54B0 /* NotificationViewController.swift */; };
+		777B28372318F353007343C2 /* FlickrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 777B28362318F353007343C2 /* FlickrViewController.swift */; };
 		7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782255B22D4326700E9DE8F /* AppDelegate.swift */; };
 		7782256122D4326700E9DE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7782255F22D4326700E9DE8F /* Main.storyboard */; };
 		7782256322D4326800E9DE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7782256222D4326800E9DE8F /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 		7782257C22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257B22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift */; };
 		77B5413922DD616500AE3224 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5413822DD616500AE3224 /* NewsListViewController.swift */; };
 		77B5413D22DDA4A000AE3224 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5413C22DDA4A000AE3224 /* NewsTableViewCell.swift */; };
+		77F4235D22E1A3E700DE7286 /* PinterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F4235C22E1A3E700DE7286 /* PinterestViewController.swift */; };
+		77F4236122E1A51900DE7286 /* PinterestCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F4236022E1A51900DE7286 /* PinterestCollectionLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,8 @@
 		775D898C22DEB85D000B10AD /* PhotoListCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListCollectionViewController.swift; sourceTree = "<group>"; };
 		775D899022DEC082000B10AD /* PhotoPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPageViewController.swift; sourceTree = "<group>"; };
 		775D899222DEF3D5000B10AD /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		7776D15D23150505006C54B0 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		777B28362318F353007343C2 /* FlickrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrViewController.swift; sourceTree = "<group>"; };
 		7782255822D4326700E9DE8F /* OtherWith30DaysOfSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtherWith30DaysOfSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7782255B22D4326700E9DE8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7782256022D4326700E9DE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +54,8 @@
 		7782257B22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSlotMachineViewController.swift; sourceTree = "<group>"; };
 		77B5413822DD616500AE3224 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		77B5413C22DDA4A000AE3224 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		77F4235C22E1A3E700DE7286 /* PinterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestViewController.swift; sourceTree = "<group>"; };
+		77F4236022E1A51900DE7286 /* PinterestCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestCollectionLayout.swift; sourceTree = "<group>"; };
 		E105C03734407E224A75F154 /* Pods-OtherWith30DaysOfSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtherWith30DaysOfSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OtherWith30DaysOfSwift/Pods-OtherWith30DaysOfSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		F7D91C843C692210C0B115A4 /* Pods-OtherWith30DaysOfSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtherWith30DaysOfSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-OtherWith30DaysOfSwift/Pods-OtherWith30DaysOfSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +123,22 @@
 			path = PhotoScroll;
 			sourceTree = "<group>";
 		};
+		7776D15C231504C3006C54B0 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				7776D15D23150505006C54B0 /* NotificationViewController.swift */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		777B28352318F337007343C2 /* Flickr */ = {
+			isa = PBXGroup;
+			children = (
+				777B28362318F353007343C2 /* FlickrViewController.swift */,
+			);
+			path = Flickr;
+			sourceTree = "<group>";
+		};
 		7782254F22D4326700E9DE8F = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +198,9 @@
 				77B5413722DD612F00AE3224 /* SimpleRSSReader */,
 				775D898B22DEB3EF000B10AD /* PhotoScroll */,
 				7722E51D22E0659F00F069CB /* QuoraDots */,
+				77F4235B22E1A39D00DE7286 /* Pinterest */,
+				7776D15C231504C3006C54B0 /* Notification */,
+				777B28352318F337007343C2 /* Flickr */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -210,6 +237,15 @@
 				77B5413C22DDA4A000AE3224 /* NewsTableViewCell.swift */,
 			);
 			path = SimpleRSSReader;
+			sourceTree = "<group>";
+		};
+		77F4235B22E1A39D00DE7286 /* Pinterest */ = {
+			isa = PBXGroup;
+			children = (
+				77F4235C22E1A3E700DE7286 /* PinterestViewController.swift */,
+				77F4236022E1A51900DE7286 /* PinterestCollectionLayout.swift */,
+			);
+			path = Pinterest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,12 +362,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				7782257622D4370200E9DE8F /* LoginViewController.swift in Sources */,
+				77F4236122E1A51900DE7286 /* PinterestCollectionLayout.swift in Sources */,
+				7776D15E23150505006C54B0 /* NotificationViewController.swift in Sources */,
+				77F4235D22E1A3E700DE7286 /* PinterestViewController.swift in Sources */,
 				7754BF2522D6D0A20005CA27 /* FacebookMeViewController.swift in Sources */,
 				7782257C22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift in Sources */,
 				77B5413922DD616500AE3224 /* NewsListViewController.swift in Sources */,
 				7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */,
 				7782257222D4350900E9DE8F /* MainViewController.swift in Sources */,
 				7782257922D467C600E9DE8F /* AnimatedTableViewController.swift in Sources */,
+				777B28372318F353007343C2 /* FlickrViewController.swift in Sources */,
 				7722E52022E065C400F069CB /* QuoraDotsViewController.swift in Sources */,
 				775D898D22DEB85D000B10AD /* PhotoListCollectionViewController.swift in Sources */,
 				7782257422D435DB00E9DE8F /* LoginAnimationViewController.swift in Sources */,
