@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1DC4B6F854AF31614CF22CCD /* Pods_OtherWith30DaysOfSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */; };
 		7722E52022E065C400F069CB /* QuoraDotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722E51F22E065C400F069CB /* QuoraDotsViewController.swift */; };
+		77270D23231F4FCE00712962 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77270D22231F4FCE00712962 /* BrowserViewController.swift */; };
 		7754BF2522D6D0A20005CA27 /* FacebookMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754BF2422D6D0A20005CA27 /* FacebookMeViewController.swift */; };
 		775ADC1422D5B8EB004304FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */; };
 		775ADC1A22D5C092004304FA /* AnimatedSplash.strings in Resources */ = {isa = PBXBuildFile; fileRef = 775ADC1922D5C092004304FA /* AnimatedSplash.strings */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtherWith30DaysOfSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7722E51F22E065C400F069CB /* QuoraDotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoraDotsViewController.swift; sourceTree = "<group>"; };
+		77270D22231F4FCE00712962 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
 		7754BF2422D6D0A20005CA27 /* FacebookMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMeViewController.swift; sourceTree = "<group>"; };
 		775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		775ADC1922D5C092004304FA /* AnimatedSplash.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = AnimatedSplash.strings; sourceTree = "<group>"; };
@@ -95,6 +97,14 @@
 				7722E51F22E065C400F069CB /* QuoraDotsViewController.swift */,
 			);
 			path = QuoraDots;
+			sourceTree = "<group>";
+		};
+		77270D21231F4F9B00712962 /* Browser */ = {
+			isa = PBXGroup;
+			children = (
+				77270D22231F4FCE00712962 /* BrowserViewController.swift */,
+			);
+			path = Browser;
 			sourceTree = "<group>";
 		};
 		7754BF2322D6D0830005CA27 /* FacebookMe */ = {
@@ -201,6 +211,7 @@
 				77F4235B22E1A39D00DE7286 /* Pinterest */,
 				7776D15C231504C3006C54B0 /* Notification */,
 				777B28352318F337007343C2 /* Flickr */,
+				77270D21231F4F9B00712962 /* Browser */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -362,6 +373,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7782257622D4370200E9DE8F /* LoginViewController.swift in Sources */,
+				77270D23231F4FCE00712962 /* BrowserViewController.swift in Sources */,
 				77F4236122E1A51900DE7286 /* PinterestCollectionLayout.swift in Sources */,
 				7776D15E23150505006C54B0 /* NotificationViewController.swift in Sources */,
 				77F4235D22E1A3E700DE7286 /* PinterestViewController.swift in Sources */,
