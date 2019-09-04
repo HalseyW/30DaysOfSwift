@@ -10,7 +10,7 @@ import UIKit
 
 class MainViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     let tableView = UITableView()
-    let data = ["LoginAnimation", "AnimateTableViewCell", "EmojiSlotMachine", "FacebookMe", "SimpleRSSReader", "PhotoScroller", "QuoraDots", "Pinterest", "Notification", "Flickr", "Browser"]
+    let data = ["LoginAnimation", "AnimateTableViewCell", "EmojiSlotMachine", "FacebookMe", "SimpleRSSReader", "PhotoScroller", "QuoraDots", "Pinterest", "Notification", "Flickr", "Browser", "Map"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,6 +69,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
             self.present(FlickrViewController(), animated: true, completion: nil)
         case 10:
             self.present(BrowserViewController(), animated: true, completion: nil)
+        case 11:
+            self.present(MapViewController(), animated: true, completion: nil)
         default:
             break
         }

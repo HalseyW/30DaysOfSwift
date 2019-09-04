@@ -10,6 +10,7 @@
 		1DC4B6F854AF31614CF22CCD /* Pods_OtherWith30DaysOfSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */; };
 		7722E52022E065C400F069CB /* QuoraDotsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722E51F22E065C400F069CB /* QuoraDotsViewController.swift */; };
 		77270D23231F4FCE00712962 /* BrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77270D22231F4FCE00712962 /* BrowserViewController.swift */; };
+		77270D26231FA17600712962 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77270D25231FA17600712962 /* MapViewController.swift */; };
 		7754BF2522D6D0A20005CA27 /* FacebookMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7754BF2422D6D0A20005CA27 /* FacebookMeViewController.swift */; };
 		775ADC1422D5B8EB004304FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */; };
 		775ADC1A22D5C092004304FA /* AnimatedSplash.strings in Resources */ = {isa = PBXBuildFile; fileRef = 775ADC1922D5C092004304FA /* AnimatedSplash.strings */; };
@@ -36,6 +37,7 @@
 		7479C1DE9F844CD2B58B677C /* Pods_OtherWith30DaysOfSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtherWith30DaysOfSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7722E51F22E065C400F069CB /* QuoraDotsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoraDotsViewController.swift; sourceTree = "<group>"; };
 		77270D22231F4FCE00712962 /* BrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowserViewController.swift; sourceTree = "<group>"; };
+		77270D25231FA17600712962 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7754BF2422D6D0A20005CA27 /* FacebookMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMeViewController.swift; sourceTree = "<group>"; };
 		775ADC1322D5B8EB004304FA /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		775ADC1922D5C092004304FA /* AnimatedSplash.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = AnimatedSplash.strings; sourceTree = "<group>"; };
@@ -105,6 +107,14 @@
 				77270D22231F4FCE00712962 /* BrowserViewController.swift */,
 			);
 			path = Browser;
+			sourceTree = "<group>";
+		};
+		77270D24231FA14C00712962 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				77270D25231FA17600712962 /* MapViewController.swift */,
+			);
+			path = Map;
 			sourceTree = "<group>";
 		};
 		7754BF2322D6D0830005CA27 /* FacebookMe */ = {
@@ -212,6 +222,7 @@
 				7776D15C231504C3006C54B0 /* Notification */,
 				777B28352318F337007343C2 /* Flickr */,
 				77270D21231F4F9B00712962 /* Browser */,
+				77270D24231FA14C00712962 /* Map */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -379,6 +390,7 @@
 				77F4235D22E1A3E700DE7286 /* PinterestViewController.swift in Sources */,
 				7754BF2522D6D0A20005CA27 /* FacebookMeViewController.swift in Sources */,
 				7782257C22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift in Sources */,
+				77270D26231FA17600712962 /* MapViewController.swift in Sources */,
 				77B5413922DD616500AE3224 /* NewsListViewController.swift in Sources */,
 				7782255C22D4326700E9DE8F /* AppDelegate.swift in Sources */,
 				7782257222D4350900E9DE8F /* MainViewController.swift in Sources */,
