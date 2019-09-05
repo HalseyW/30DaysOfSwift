@@ -15,8 +15,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        if let shortcutItem = launchOptions?[UIApplication.LaunchOptionsKey.shortcutItem] as? UIApplicationShortcutItem {
+            if shortcutItem.type == "com.wushhhhhh.ios.OtherWith30DaysOfSwift.weighting" {
+                handleAction()
+            }
+            return false
+        }
         startTwitterLaunchAnimation()
         return true
+    }
+    
+    func application(_ application: UIApplication, performActionFor shortcutItem: UIApplicationShortcutItem, completionHandler: @escaping (Bool) -> Void) {
+        if shortcutItem.type == "com.wushhhhhh.ios.OtherWith30DaysOfSwift.weighting" {
+            handleAction()
+        }
+    }
+    
+    func handleAction() {
+        
     }
     
     /// 仿制 Twitter 启动动画
