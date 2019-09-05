@@ -29,6 +29,7 @@
 		7782257C22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7782257B22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift */; };
 		77B5413922DD616500AE3224 /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5413822DD616500AE3224 /* NewsListViewController.swift */; };
 		77B5413D22DDA4A000AE3224 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B5413C22DDA4A000AE3224 /* NewsTableViewCell.swift */; };
+		77E547E32320DB4A00AB4260 /* _3DTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E547E22320DB4A00AB4260 /* _3DTouchViewController.swift */; };
 		77F4235D22E1A3E700DE7286 /* PinterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F4235C22E1A3E700DE7286 /* PinterestViewController.swift */; };
 		77F4236122E1A51900DE7286 /* PinterestCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F4236022E1A51900DE7286 /* PinterestCollectionLayout.swift */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		7782257B22D48ACC00E9DE8F /* EmojiSlotMachineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiSlotMachineViewController.swift; sourceTree = "<group>"; };
 		77B5413822DD616500AE3224 /* NewsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		77B5413C22DDA4A000AE3224 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		77E547E22320DB4A00AB4260 /* _3DTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _3DTouchViewController.swift; sourceTree = "<group>"; };
 		77F4235C22E1A3E700DE7286 /* PinterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestViewController.swift; sourceTree = "<group>"; };
 		77F4236022E1A51900DE7286 /* PinterestCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestCollectionLayout.swift; sourceTree = "<group>"; };
 		E105C03734407E224A75F154 /* Pods-OtherWith30DaysOfSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OtherWith30DaysOfSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OtherWith30DaysOfSwift/Pods-OtherWith30DaysOfSwift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -223,6 +225,7 @@
 				777B28352318F337007343C2 /* Flickr */,
 				77270D21231F4F9B00712962 /* Browser */,
 				77270D24231FA14C00712962 /* Map */,
+				77E547E12320DB1300AB4260 /* 3DTouch */,
 			);
 			path = Module;
 			sourceTree = "<group>";
@@ -259,6 +262,14 @@
 				77B5413C22DDA4A000AE3224 /* NewsTableViewCell.swift */,
 			);
 			path = SimpleRSSReader;
+			sourceTree = "<group>";
+		};
+		77E547E12320DB1300AB4260 /* 3DTouch */ = {
+			isa = PBXGroup;
+			children = (
+				77E547E22320DB4A00AB4260 /* _3DTouchViewController.swift */,
+			);
+			path = 3DTouch;
 			sourceTree = "<group>";
 		};
 		77F4235B22E1A39D00DE7286 /* Pinterest */ = {
@@ -398,6 +409,7 @@
 				777B28372318F353007343C2 /* FlickrViewController.swift in Sources */,
 				7722E52022E065C400F069CB /* QuoraDotsViewController.swift in Sources */,
 				775D898D22DEB85D000B10AD /* PhotoListCollectionViewController.swift in Sources */,
+				77E547E32320DB4A00AB4260 /* _3DTouchViewController.swift in Sources */,
 				7782257422D435DB00E9DE8F /* LoginAnimationViewController.swift in Sources */,
 				775D899122DEC082000B10AD /* PhotoPageViewController.swift in Sources */,
 				775D899322DEF3D5000B10AD /* PhotoDetailViewController.swift in Sources */,
